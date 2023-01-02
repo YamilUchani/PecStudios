@@ -3,7 +3,7 @@ body {
 }
 
 .encabezado {
-  background: linear-gradient(to bottom, lightgreen, yellow);
+  background: linear-gradient(to top, blue, purple);
   border-radius: 25px;
   text-align: center;
   width: 50%;
