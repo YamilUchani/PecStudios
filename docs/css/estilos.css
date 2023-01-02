@@ -1,8 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
-    color: #333;
-  }
-  
-  h1 {
-    color: #000;
-  }
+.encabezado {
+  background: linear-gradient(to bottom, cyan, purple);
+  border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+}
