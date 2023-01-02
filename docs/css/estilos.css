@@ -1,5 +1,9 @@
+body {
+  background-color: black;
+}
+
 .encabezado {
-  background: linear-gradient(to top, lightgreen, darkgreen);
+  background: linear-gradient(to right, lightgreen, yellow);
   border-radius: 25px;
   text-align: center;
   width: 50%;
@@ -9,7 +13,5 @@
 }
 
 .encabezado h1 {
-  font-family: "Comic Sans", sans-serif;
   color: white;
-  background-color: white;
 }
