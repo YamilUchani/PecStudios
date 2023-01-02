@@ -5,9 +5,11 @@ body {
 .encabezado {
   background: linear-gradient(to top, lightgreen, green);
   border-radius: 25px;
-  text-align: center;
-  width: 50%;
-  margin: 0 auto;
+  text-align: left;
+  width: 8%;
+  position: absolute;
+  top: 0;
+  left: 0;
   padding: 20px;
   border: 5px solid white;
 }
