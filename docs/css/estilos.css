@@ -3,7 +3,7 @@ body {
 }
 
 .encabezado {
-  background: linear-gradient(to top, blue, purple);
+  background: linear-gradient(to top, lightgreen, green);
   border-radius: 25px;
   text-align: center;
   width: 50%;
@@ -14,4 +14,5 @@ body {
 
 .encabezado h1 {
   color: white;
+  font-family: 'Comic Sans MS', cursive;
 }
