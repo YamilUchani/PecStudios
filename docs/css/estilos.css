@@ -18,19 +18,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow:  0.3vw 0.3vw 0px  #bbbbbb;
-  
 }
 
-.encabezado:active{
-  box-shadow: none;
-  top: 10.3%;
-  left: 50.3%;
-}
 .encabezado:hover h1{
   
   font-weight: 700;
-  }
+}
+
 
 .encabezado h1 {
   color: white;
@@ -39,8 +33,20 @@ body {
   text-align: center;
   font-weight: 200;
   letter-spacing: 3px;
-  text-shadow: 0 2px 0 #444444, 0 -2px 0;
-  
 }
-
-
+.elemento {
+  width: 30%;
+  height: 10%;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.elemento ul {
+  list-style: none;
+  display: flex;
+}
+.elemento li {
+  flex: 1;
+  text-align: center;
+}
