@@ -1,26 +1,46 @@
 body {
-  background-color: black;
+  background-color: gray;
 }
 
 .encabezado {
-  background: linear-gradient(to top,  #4FE000, #A9E000 );
+  
+  background: linear-gradient(to top,  #3AA000, #73E600 );
   border-radius: 25px;
-  text-align: left;
-  width: 15%;
+  text-align: center;
+  width: auto;
   height: 5%;
   position: absolute;
-  top: 20;
-  left: 20;
-  padding: 20px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2%;
   border: 5px solid white;
   display: flex;
   align-items: center;
+  justify-content: center;
+  box-shadow:  0.3vw 0.3vw 0px  #bbbbbb;
+  
 }
+
+.encabezado:active{
+  box-shadow: none;
+  top: 10.3%;
+  left: 50.3%;
+}
+.encabezado:hover h1{
+  
+  font-weight: 700;
+  }
 
 .encabezado h1 {
   color: white;
-  font-family: 'Super Mario 256', cursive;
-  font-size: 1.5em;
+  font-family: 'Impact', cursive;
+  font-size: 3vw;
   text-align: center;
-  font-weight: bold;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 0 2px 0 #444444, 0 -2px 0;
+  
 }
+
+
